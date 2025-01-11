@@ -1,0 +1,143 @@
+.new-letter{
+    width: 65%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 30px;
+    background: linear-gradient(#fde1ff, #e1ffea22);
+    padding: 0px 140px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.new-letter h1{
+    font-size: 45px;
+}
+.new-letter p{
+    font-size: 25px;
+}
+.new-letter div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    background: white;
+}
+.new-letter input{
+    font-size: 20px;
+    width: 500px;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+}
+.new-letter button{
+    font-size: 20px;
+    width: 210px;
+    background: black;
+    color: white;
+    border-radius: 80px;
+    height: 70px;
+    cursor: pointer;
+}
+
+@media(max-width:1280px){
+    .new-letter{
+        padding: 0px 80px;
+        margin-bottom: 120px;
+        gap: 20px;
+    }
+    .new-letter h1{
+        font-size: 36px;
+    }
+    .new-letter p{
+        font-size: 18px;
+    }
+    .new-letter div{
+        width: 600px;
+        height: 60px;
+    }
+    .new-letter div input{
+        width: 400px;
+    }
+    .new-letter button{
+        width: 160px;
+        height: 60px;
+    }
+}
+@media(max-width:1024px){
+    .new-letter{
+        margin-bottom: 100px;
+    }
+    .new-letter h1{
+        font-size: 29px;
+    }
+    .new-letter p{
+        font-size: 16px;
+    }
+    .new-letter div{
+        width: 500px;
+        height: 50px;
+    }
+    .new-letter div input{
+        width: 300px;
+        font-size: 14px;
+    }
+    .new-letter button{
+        width: 120px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+@media(max-width:800px){
+    .new-letter{
+        margin-bottom: 80px;
+        height: 35vh;
+    }
+    .new-letter h1{
+        font-size: 19px;
+    }
+    .new-letter p{
+        font-size: 12px;
+    }
+    .new-letter div{
+        width: 400px;
+        height: 40px;
+    }
+    .new-letter div input{
+        width: 200px;
+        font-size: 12px;
+    }
+    .new-letter button{
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+}
+@media(max-width:550px){
+    .new-letter{
+        height: 25vh;
+        width: 100%;
+        padding: 30px 0px;
+        gap: 15px;
+    }
+    .new-letter h1{
+        font-size: 16px;
+    }
+    .new-letter p{
+        font-size: 13px;
+        max-width: 200px;
+        text-align: center;
+    }
+    .new-letter div{
+        width: 290px;
+        height: 40px;
+    }
+    .new-letter div input{
+        width: 130px;
+    }
+}

@@ -1,0 +1,159 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+    box-shadow: 0px 1px 3px -2px black;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    font-size: 18px;
+    color: rgb(82, 81, 81);   
+}
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+.nav-menu hr{
+    width: 80%;
+    height: 3px;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav-login-cart button{
+    width: 150px;
+    height: 55px;
+    border: 1px solid gainsboro;
+    border-radius: 75px;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600px;
+    background: white;
+}
+.nav-login-cart button:active{
+    background-color: darkgray;
+}
+.nav-cart-count{
+    display: flex;
+    width: 22px;
+    height: 22px;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    border-radius: 11px;
+    margin-left: -55px;
+    margin-top: -35px;
+    font-size: 14px;
+    color: white;
+}
+.nav-dropdowm{
+    display: none;
+} 
+
+@media(max-width : 1280px){
+    .navbar{
+        padding: 12px 16px;
+    }
+    .nav-logo img{
+        width: 40px;
+    }
+    .nav-logo{
+        font-size: 15px;
+    }
+    .nav-menu{
+        gap: 30px;
+        font-size: 16px;
+    }
+    .nav-login-cart{
+        gap: 30px;
+    }
+    .nav-login-cart button{
+        width: 100px;
+        height: 35px;
+        font-size: 16px;
+        
+    }
+    .nav-cart-count{
+        margin-left: -40px;
+        font-size: 12px;
+    }
+}
+@media(max-width : 1024px){
+    .navbar{
+        padding: 12px 30px;
+    }
+    .nav-menu{
+        gap: 25px;
+        font-size: 14px;
+    }
+    .nav-login-cart button{
+        width: 80px;
+        height: 35px;
+        font-size: 14px;  
+    }
+    .nav-cart-count{
+        width: 18px;
+        height: 18px;
+    }
+}
+@media(max-width : 800px){
+    .navbar{
+        padding: 10px 0px;
+    }
+    .nav-dropdowm{
+        display: block;
+        width: 25px;
+        height: 30px;
+        transition: 0.5s;
+        margin-top: 10px;
+    }
+    .nav-menu{
+        display: none;
+        height: 80px;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        justify-content: center;
+        top: 50px;
+    }
+    .nav-menu-visible{
+          display: flex;
+    }
+    .nav-dropdowm.open{
+        transform: rotate(90deg);
+    }
+}
+@media(max-width : 500px){
+    .navbar{
+        padding: 8px 0px;
+        gap: 0px;
+    }
+    .nav-logo{
+        transform: scale(0.8);
+    }
+    .nav-menu{
+        height: 70px;
+        top: 50px;
+    }
+    .nav-login-cart{
+        transform: scale(0.8);
+    }
+}

@@ -1,0 +1,56 @@
+{
+  "defaults": {
+    "project": 2,
+    "env": 1
+  },
+  "actives": {
+    "project": 2,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "12356000000007022",
+      "name": "Project-Rainfall",
+      "domain": {
+        "id": "50024454767",
+        "name": "project-rainfall-60036321734.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60036321734",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    },
+    {
+      "idx": 2,
+      "id": "12356000000007077",
+      "name": "LithiGarments",
+      "domain": {
+        "id": "50024454943",
+        "name": "lithigarments-60036321734.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60036321734",
+          "name": "Development",
+          "type": 3,
+          "env_status": "Active",
+          "project_details": {
+            "project_name": "LithiGarments",
+            "id": "12356000000007077",
+            "project_type": "Live"
+          },
+          "is_default": true,
+          "action_required": false
+        }
+      ]
+    }
+  ]
+}

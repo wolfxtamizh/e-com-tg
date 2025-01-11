@@ -1,0 +1,21 @@
+.container{
+    min-height: 500px;
+    background-color: rgb(191, 185, 185);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.img{
+    display: flex;
+}
+.img img{
+    width: 30px;
+    height: 30px;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+.box{
+    line-height: 60px;
+}

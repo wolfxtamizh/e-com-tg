@@ -1,0 +1,72 @@
+.billing-container{
+    /* width: 700px; */
+    min-height: 540px;
+    background-color: rgb(246, 244, 244);
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.billing-container h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    text-decoration: underline;
+}
+.billing-box{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* border: 2px solid black; */
+    width: 450px;
+    justify-content: space-between;
+}
+.billing-box input{
+    width: 250px;
+    height: 30px;
+    gap: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+}
+.billing-box button{
+    font-size: 18px;
+    padding: 6px 15px;
+    margin-top: 20px;
+    background-color: rgb(61, 185, 61);
+    border-radius: 10px;
+}
+
+.cart-item1{
+    border: 2px solid rgb(177, 177, 177);
+    width: 650px;
+}
+.cart-item1 h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 30px;
+    text-decoration: underline;
+}
+.cart-item-total-item1{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 50px;
+}
+.cart-item1 hr{
+    width: 550px;
+    height: 2px;
+    background-color: rgb(177, 177, 177);
+    margin-left: 50px;
+}
+#payment{
+    display: flex;
+    padding: 30px 50px;
+    justify-content: space-between;
+}
+#payment label{
+    margin-top: 5px;
+}
+#order{
+    margin-top: 20px;
+    background-color: rgb(102, 188, 102);
+    padding: 10px 50px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}

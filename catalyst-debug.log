@@ -1,0 +1,39 @@
+[debug] [2025-01-10T04:24:20.384Z] : 
+[debug] [2025-01-10T04:24:20.386Z] : ----------------------------------------------------------------------
+[debug] [2025-01-10T04:24:20.387Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Admin\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2025-01-10T04:24:20.387Z] : CLI Version:  1.17.6
+[debug] [2025-01-10T04:24:20.388Z] : Platform:     win32
+[debug] [2025-01-10T04:24:20.388Z] : Node Version: v20.17.0
+[debug] [2025-01-10T04:24:20.388Z] : Time:         Fri Jan 10 2025 09:54:20 GMT+0530 (India Standard Time)
+[debug] [2025-01-10T04:24:20.389Z] : ----------------------------------------------------------------------
+[debug] [2025-01-10T04:24:20.389Z] : 
+[debug] [2025-01-10T04:24:21.282Z] : > authorizing via signed-in user option
+[debug] [2025-01-10T04:24:21.283Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute","ZohoCatalyst.authentication.CREATE"]
+[debug] [2025-01-10T04:24:21.300Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/12356000000007077 
+
+[debug] [2025-01-10T04:24:21.689Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Jan 2025 04:24:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=ed010f63633be60a322039283f31a645; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=1662cd51-7a1f-4366-bff8-117d86b7fd8f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1662cd51-7a1f-4366-bff8-117d86b7fd8f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-01-10T04:24:21.702Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/12356000000007077/environment 
+
+[debug] [2025-01-10T04:24:21.807Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Jan 2025 04:24:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["zalb_3a750b85f1=411f509465b028e7e235eac6930aaab2; Path=/; Secure; HttpOnly","ZD_CSRF_TOKEN=32853da1-e59f-476c-82f5-c0152beb777d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=32853da1-e59f-476c-82f5-c0152beb777d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=64072000; includeSubDomains; preload"}
+
+[debug] [2025-01-10T04:24:22.204Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2025-01-10T04:24:22.222Z] : No basic functions to add
+[info] [2025-01-10T04:24:22.369Z] : 
+[info] [2025-01-10T04:24:22.371Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2025-01-10T04:24:22.373Z] : i client[sampleApp]: http://localhost:3001/app/
+[info] [2025-01-10T04:24:22.375Z] : 
+[info] [2025-01-10T04:25:10.359Z] : Addition of file(s) is detected in public\favicon.ico of the Web-Client.
+[info] [2025-01-10T04:25:10.363Z] : Addition of file(s) is detected in public\index.html of the Web-Client.
+[info] [2025-01-10T04:25:10.368Z] : Addition of file(s) is detected in public\logo192.png of the Web-Client.
+[info] [2025-01-10T04:25:10.370Z] : Addition of file(s) is detected in public\logo512.png of the Web-Client.
+[info] [2025-01-10T04:25:10.375Z] : Addition of file(s) is detected in public\manifest.json of the Web-Client.
+[info] [2025-01-10T04:25:10.377Z] : Addition of file(s) is detected in public\robots.txt of the Web-Client.
+[info] [2025-01-10T04:26:26.090Z] : Deletion of file(s) is detected in public\favicon.ico of the Web-Client.
+[info] [2025-01-10T04:26:26.092Z] : Deletion of file(s) is detected in public\index.html of the Web-Client.
+[info] [2025-01-10T04:26:26.094Z] : Deletion of file(s) is detected in public\logo192.png of the Web-Client.
+[info] [2025-01-10T04:26:26.095Z] : Deletion of file(s) is detected in public\logo512.png of the Web-Client.
+[info] [2025-01-10T04:26:26.097Z] : Deletion of file(s) is detected in public\manifest.json of the Web-Client.
+[info] [2025-01-10T04:26:26.108Z] : Deletion of file(s) is detected in public\robots.txt of the Web-Client.
